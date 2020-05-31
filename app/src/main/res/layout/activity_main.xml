@@ -22,7 +22,8 @@
             android:text="@string/app_name"
             android:textStyle="bold"
             android:textSize="30sp"
-            android:textColor="@color/colorWhite"/>
+            android:textColor="@color/colorWhite"
+            />
 
     </RelativeLayout>
 
@@ -70,6 +71,13 @@
         android:textStyle="bold"
         android:background="@drawable/shape_rect_app_bar"
         />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_bottom_navigation" />
 
 
 </RelativeLayout>
