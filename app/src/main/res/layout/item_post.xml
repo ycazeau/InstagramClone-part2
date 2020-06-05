@@ -13,7 +13,8 @@
         android:layout_height="wrap_content"
         android:text="TextView"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        tools:text="ycazeau" />
+        tools:text="ycazeau"
+        android:layout_marginTop="70dp"/>
 
     <ImageView
         android:id="@+id/ivImage"
